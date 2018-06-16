@@ -41,22 +41,27 @@ class PlacesTableViewController: UITableViewController {
     }
 
     // MARK: - Table view data source
-
     override func numberOfSections(in tableView: UITableView) -> Int {
         // #warning Incomplete implementation, return the number of sections
         return 1
     }
+    
+    @objc func showAll(){
+        performSegue(withIdentifier: "mapSegue", sender: places)
+    }
 
     override func tableView(_ tableView: UITableView, numberOfRowsInSection section: Int) -> Int {
         if places.count > 0 {
-            let btShowAll = UIBarButtonItem(title: "Exibir todos", style: .plain, target: self, action: #selector(loadPlaces))
+            let btShowAll = UIBarButtonItem(title: "Exibir todos", style: .plain, target: self, action: #selector(showAll))
             navigationItem.leftBarButtonItem = btShowAll
-            tableView.backgroundView = lbNoPlaces
+            tableView.backgroundView = nil
         } else {
+            tableView.backgroundView = lbNoPlaces
             navigationItem.leftBarButtonItem = nil
         }
         return places.count
     }
+    
     func savePlaces() {
         do {
             let json = try JSONEncoder().encode(places)
