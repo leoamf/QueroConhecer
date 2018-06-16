@@ -112,7 +112,6 @@
                                                 </state>
                                                 <connections>
                                                     <action selector="showRoute:" destination="nC6-PE-58e" eventType="touchUpInside" id="36m-yB-6SE"/>
-                                                    <action selector="showSearchBar:" destination="nC6-PE-58e" eventType="touchUpInside" id="pAp-nU-Tc4"/>
                                                 </connections>
                                             </button>
                                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Endereço" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="EGv-nN-cJo">
@@ -126,7 +125,6 @@
                                         <constraints>
                                             <constraint firstItem="EGv-nN-cJo" firstAttribute="leading" secondItem="TsD-wN-e32" secondAttribute="leading" id="7Zd-y5-F5y"/>
                                             <constraint firstItem="TsD-wN-e32" firstAttribute="top" secondItem="a1O-A6-JPB" secondAttribute="top" constant="12" id="CkK-NX-nmm"/>
-                                            <constraint firstItem="v6B-lO-q2p" firstAttribute="leading" secondItem="EGv-nN-cJo" secondAttribute="trailing" constant="53" id="DAg-PT-oaL"/>
                                             <constraint firstItem="EGv-nN-cJo" firstAttribute="top" secondItem="TsD-wN-e32" secondAttribute="bottom" id="UV8-w9-VQs"/>
                                             <constraint firstAttribute="trailing" secondItem="v6B-lO-q2p" secondAttribute="trailing" constant="138" id="fmS-KJ-OSl"/>
                                             <constraint firstItem="EGv-nN-cJo" firstAttribute="leading" secondItem="a1O-A6-JPB" secondAttribute="leading" constant="12" id="j9w-zO-PMX"/>

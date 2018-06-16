@@ -8,6 +8,7 @@
 
 import UIKit
 import MapKit
+
 enum MapMessageType {
     case routeError
     case authorizationWarning
@@ -47,9 +48,9 @@ class MapViewController: UIViewController{
         } else {
             title = "Meus lugares"
         }
+        configureLocationButton()
         
         requestUserLocationAuthorization()
-        configureLocationButton()
         
         
         locationManager.delegate = self

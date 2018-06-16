@@ -2,7 +2,7 @@
 <!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
 <plist version="1.0">
 <dict>
-	<key>NSLocationAlwaysUsageDescription</key>
+	<key>NSLocationWhenInUseUsageDescription</key>
 	<string>Preciso acessar dados de sua localização para traçar rotas.</string>
 	<key>LSApplicationCategoryType</key>
 	<string></string>
@@ -32,7 +32,7 @@
 	<string>Main</string>
 	<key>UIRequiredDeviceCapabilities</key>
 	<array>
-		<string>armv7</string>
+		<string></string>
 	</array>
 	<key>UISupportedInterfaceOrientations</key>
 	<array>

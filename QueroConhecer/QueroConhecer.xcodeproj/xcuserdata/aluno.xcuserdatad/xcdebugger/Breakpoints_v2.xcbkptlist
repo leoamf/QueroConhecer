@@ -6,16 +6,16 @@
       <BreakpointProxy
          BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
          <BreakpointContent
-            shouldBeEnabled = "No"
+            shouldBeEnabled = "Yes"
             ignoreCount = "0"
             continueAfterRunningActions = "No"
             filePath = "QueroConhecer/Controllers/MapViewController.swift"
-            timestampString = "550848629.6033289"
+            timestampString = "550851592.121172"
             startingColumnNumber = "9223372036854775807"
             endingColumnNumber = "9223372036854775807"
-            startingLineNumber = "225"
-            endingLineNumber = "225"
-            landmarkName = "searchBarSearchButtonClicked(_:)"
+            startingLineNumber = "185"
+            endingLineNumber = "185"
+            landmarkName = "showSearchBar(_:)"
             landmarkType = "7">
          </BreakpointContent>
       </BreakpointProxy>
@@ -26,12 +26,12 @@
             ignoreCount = "0"
             continueAfterRunningActions = "No"
             filePath = "QueroConhecer/Controllers/MapViewController.swift"
-            timestampString = "550848629.604681"
+            timestampString = "550851592.122062"
             startingColumnNumber = "9223372036854775807"
             endingColumnNumber = "9223372036854775807"
-            startingLineNumber = "281"
-            endingLineNumber = "281"
-            landmarkName = "mapView(_:viewFor:)"
+            startingLineNumber = "136"
+            endingLineNumber = "136"
+            landmarkName = "showRoute(_:)"
             landmarkType = "7">
          </BreakpointContent>
       </BreakpointProxy>
@@ -42,12 +42,12 @@
             ignoreCount = "0"
             continueAfterRunningActions = "No"
             filePath = "QueroConhecer/Controllers/MapViewController.swift"
-            timestampString = "550848629.6056091"
+            timestampString = "550851592.122581"
             startingColumnNumber = "9223372036854775807"
             endingColumnNumber = "9223372036854775807"
-            startingLineNumber = "325"
-            endingLineNumber = "325"
-            landmarkName = "mapView(_:rendererFor:)"
+            startingLineNumber = "251"
+            endingLineNumber = "251"
+            landmarkName = "searchBarSearchButtonClicked(_:)"
             landmarkType = "7">
          </BreakpointContent>
       </BreakpointProxy>
