@@ -112,6 +112,7 @@
                                                 </state>
                                                 <connections>
                                                     <action selector="showRoute:" destination="nC6-PE-58e" eventType="touchUpInside" id="36m-yB-6SE"/>
+                                                    <action selector="showSearchBar:" destination="nC6-PE-58e" eventType="touchUpInside" id="pAp-nU-Tc4"/>
                                                 </connections>
                                             </button>
                                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Endereço" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="EGv-nN-cJo">
